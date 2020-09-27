@@ -83,7 +83,7 @@ def decode_predictions(preds, top=5):
     return results
 
 def load_model():
-    """Load MobileNet & MobileNetV2 model."""
+    """Load MobileNetV2 model."""
     global model
     model = MobileNetV2(weights="./mobilenet_v2_weights_tf_dim_ordering_tf_kernels_1.0_224.h5")
 
